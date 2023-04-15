@@ -36,9 +36,9 @@ export default function Encrypt() {
 
             <Column title="Cipher" iconAlt="Cipher" iconSource={mailLockIcon} flexGrow>
                 <div className="w-40 flex">
-                    <p className="bg-white w-32 mr-2 truncate">
+                    <p className="bg-white w-24 mr-2 truncate">
                         {cipher === null || cipher.length === 0 ?
-                            <i>Fill in values</i>
+                            <i>Invalid</i>
                             : cipher}
                     </p>
                     <button

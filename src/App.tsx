@@ -15,6 +15,9 @@ function App() {
         <p className='mt-12 ml-4 text-center text-5xl'>
           Encrypt and Decrypt with AES
         </p>
+        <p className='mt-12 ml-4 text-center text-2xl'>
+          Fill in the values below and press sync to update the output
+        </p>
         <div className="inline-flex justify-center w-full mt-10 content-center">
           <ChecboxWithLabel
             label="Decrypt"
@@ -33,6 +36,11 @@ function App() {
             :
             <Encrypt />
           }
+        </div>
+        <div className="w-full flex justify-center mt-7">
+          <p>
+            *All operations are done locally on your computer securely
+          </p>
         </div>
       </div>
     </div>

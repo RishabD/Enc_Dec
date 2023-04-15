@@ -35,7 +35,7 @@ export default function Decrypt() {
                 <div className="w-40 flex">
                     <p className="bg-white w-24 mr-2 truncate">
                         {message === null || message.length === 0 ?
-                            <i>Empty</i>
+                            <i>Invalid</i>
                             : message}
                     </p>
                     <button
