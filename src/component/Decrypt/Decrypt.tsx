@@ -26,6 +26,7 @@ export default function Decrypt() {
             <Column title="Password" iconAlt="Password" iconSource={keyIcon} flexGrow >
                 <input
                     className="w-40 m-0"
+                    type="password"
                     onChange={e => setKey(e.target.value)}
                     value={key}
                 />
